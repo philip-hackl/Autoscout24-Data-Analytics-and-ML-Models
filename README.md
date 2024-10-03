@@ -1,3 +1,6 @@
+Hier ist der Text in einer "Sie"-Formulierung:
+
+```markdown
 # Autoscout24 Data Analytics and Machine Learning Models
 
 ## Projektübersicht
@@ -17,7 +20,6 @@ In diesem Projekt werden Verkaufsdaten von Autos aus AutoScout24 analysiert und 
 - [Installation](#installation)
 - [Benutzung](#benutzung)
 - [Fazit](#fazit)
-
 
 ## Datenbeschreibung
 
@@ -49,7 +51,7 @@ Das Projekt enthält mehrere interaktive Visualisierungen, die mit Tableau erste
 
 Die Datenanalyse umfasst:
 
-- Verkaufsstatistiken: Wieviele Autos wurden pro Jahr verkauft (2011 - 2021)?
+- Verkaufsstatistiken: Wie viele Autos wurden pro Jahr verkauft (2011 - 2021)?
 - Die häufigsten Marken in den Daten.
 - Korrelationen zwischen den numerischen Merkmalen.
 - Durchschnittspreise für die fünf meistverkauften Automarken.
@@ -87,7 +89,7 @@ Die Ergebnisse der Modelle werden analysiert, um die beste Modellanpassung zu id
 
 ## Installation
 
-Um das Projekt auszuführen, stelle sicher, dass du die folgenden Bibliotheken installiert hast:
+Um das Projekt auszuführen, stellen Sie sicher, dass Sie die folgenden Bibliotheken installiert haben:
 
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn pandas-profiling
@@ -95,11 +97,14 @@ pip install pandas numpy seaborn matplotlib scikit-learn pandas-profiling
 
 ## Benutzung
 
-1. Klone das Repository oder lade die Dateien herunter.
-2. Stelle sicher, dass sich die `autoscout24.csv` im gleichen Verzeichnis befindet.
-3. Führe das Skript in einer Python-Umgebung (z.B. Jupyter Notebook) aus, um die Daten zu analysieren, Machine Learning-Modelle zu trainieren und das Dashboard zu erstellen.
+Hinweis: Wenn Sie den Code nur ansehen und nicht verwenden möchten, klicken Sie einfach auf "autoscout24_code.ipynb".
 
+Zum Bearbeiten:
+
+1. Klonen Sie das Repository oder laden Sie die Dateien herunter.
+2. Stellen Sie sicher, dass sich die `autoscout24.csv` im gleichen Verzeichnis befindet.
+3. Führen Sie das Skript in einer Python-Umgebung (z.B. Jupyter Notebook) aus, um die Daten zu analysieren, Machine Learning-Modelle zu trainieren und das Dashboard zu erstellen.
 
 ### Fazit
 
-Dieses Projekt bietet einen umfassenden Einblick in die Verkaufsdaten von Autos und zeigt, wie Datenanalysen und Machine Learning kombiniert werden können, um wertvolle Erkenntnisse zu gewinnen. Es dient auch als Grundlage für weitere Analysen und das Experimentieren mit unterschiedlichen Modellen und Visualisierungstechniken. 
+Dieses Projekt bietet einen umfassenden Einblick in die Verkaufsdaten von Autos und zeigt, wie Datenanalysen und Machine Learning kombiniert werden können, um wertvolle Erkenntnisse zu gewinnen. Es dient auch als Grundlage für weitere Analysen und das Experimentieren mit unterschiedlichen Modellen und Visualisierungstechniken.
