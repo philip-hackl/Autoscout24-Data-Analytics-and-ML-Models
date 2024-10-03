@@ -3,6 +3,7 @@
 Dieses Repository enthält eine umfassende Analyse von Daten von Autoscout24. 
 
 Es umfasst die folgenden Hauptkomponenten:
+
 Datenanalyse: Ausführliche Analyse der Autoscout24-Daten, um wichtige Trends und Muster zu identifizieren.
 Visualisierung: Erstellung interaktiver Visualisierungen mit Tableau, um die Erkenntnisse ansprechend zu präsentieren.
 Machine Learning Modelle: Training, Testen und Vergleich mehrerer Machine Learning-Modelle, um die besten Vorhersageergebnisse zu erzielen.
