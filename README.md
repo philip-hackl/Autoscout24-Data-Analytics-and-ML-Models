@@ -1,6 +1,3 @@
-Hier ist der Text in einer "Sie"-Formulierung:
-
-```markdown
 # Autoscout24 Data Analytics and Machine Learning Models
 
 ## Projektübersicht
