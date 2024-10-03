@@ -1,41 +1,31 @@
-# Autoscout24-Data-Analytics-and-ML-Models
+Hier ist die optimierte README-Datei ohne Doppelungen und mit einer einheitlichen Struktur:
 
-Dieses Repository enthält eine umfassende Analyse von Daten von Autoscout24. 
+---
 
-Es umfasst die folgenden Hauptkomponenten:
+# Autoscout24 Data Analytics and Machine Learning Models
 
+## Projektübersicht
 
-**Datenanalyse:** Ausführliche Analyse der Autoscout24-Daten, um wichtige Trends und Muster zu identifizieren.
-
-**Visualisierung:** Erstellung interaktiver Visualisierungen mit Tableau, um die Erkenntnisse ansprechend zu präsentieren.
-
-**Machine Learning Modelle:** Training, Testen und Vergleich mehrerer Machine Learning-Modelle, um die besten Vorhersageergebnisse zu erzielen.
-
-
-Die __Zielsetzung__ dieses Projekts ist es, wertvolle Einsichten in den Automobilmarkt zu gewinnen und die Leistungsfähigkeit verschiedener ML-Modelle zu evaluieren.
-
+In diesem Projekt werden Verkaufsdaten von Autos aus AutoScout24 analysiert und visualisiert. Ziel ist es, interessante Erkenntnisse über die Verkaufszahlen, Preisentwicklung und mögliche Korrelationen zwischen verschiedenen Eigenschaften der Fahrzeuge zu gewinnen. Zudem werden Machine Learning-Modelle entwickelt, um den Verkaufspreis von Autos basierend auf ihren Merkmalen vorherzusagen.
 
 ## Inhaltsverzeichnis
 
-- [Einführung](#einführung)
+- [Projektübersicht](#projektübersicht)
 - [Datenbeschreibung](#datenbeschreibung)
 - [Vorbereitung](#vorbereitung)
 - [Visualisierungen](#visualisierungen)
 - [Datenanalyse](#datenanalyse)
 - [Maschinelles Lernen](#maschinelles-lernen)
 - [Ergebnisse](#ergebnisse)
+- [Technologien](#technologien)
 - [Installation](#installation)
 - [Benutzung](#benutzung)
+- [Fazit](#fazit)
 
-
-## Einführung
-
-Dieses Projekt zielt darauf ab, Einblicke in die Verkaufsdaten von Autos zu gewinnen und
-Vorhersagemodelle zu erstellen, um den Preis von Fahrzeugen auf der Grundlage bestimmter Merkmale zu schätzen.
 
 ## Datenbeschreibung
 
-Die Daten werden aus einer CSV-Datei (`autoscout24.csv`) geladen, die folgende Spalten enthält:
+Die verwendeten Daten stammen aus einer CSV-Datei (`autoscout24.csv`) und enthalten folgende Spalten:
 
 - **mileage**: Kilometerstand des Fahrzeugs
 - **price**: Verkaufspreis
@@ -45,34 +35,32 @@ Die Daten werden aus einer CSV-Datei (`autoscout24.csv`) geladen, die folgende S
 
 ## Vorbereitung
 
-Die Daten werden vorbereitet, indem:
+Die Daten werden vorbereitet durch:
 
-1. **Null-Werte** entfernt werden.
-2. **Einen sauberen Datensatz** in einer neuen CSV-Datei (`autoscout24_clean.csv`) gespeichert wird.
-3. **Statistische Informationen** über die numerischen Merkmale bereitgestellt werden.
+1. Entfernen von Null-Werten.
+2. Speichern eines sauberen Datensatzes in einer neuen CSV-Datei (`autoscout24_clean.csv`).
+3. Bereitstellung statistischer Informationen über die numerischen Merkmale.
 
 ## Visualisierungen
 
-Das Projekt enthält mehrere Visualisierungen zur Analyse der Daten, darunter:
+Das Projekt enthält mehrere interaktive Visualisierungen, die mit Tableau erstellt wurden, darunter:
 
-- **Histogramme** für jede numerische Spalte
-- **Korrelationsmatrix** für die numerischen Merkmale
-- **Liniendiagramm** der verkauften Autos pro Jahr
+- Histogramme für jede numerische Spalte
+- Korrelationsmatrix für die numerischen Merkmale
+- Liniendiagramm der verkauften Autos pro Jahr
 
 ## Datenanalyse
 
 Die Datenanalyse umfasst:
 
-- Die Anzahl der verkauften Autos pro Jahr (2011 - 2021)
-- Die häufigsten Marken
-- Korrelationen zwischen den numerischen Merkmalen
-- Durchschnittspreise für die fünf meistverkauften Automarken
+- Verkaufsstatistiken: Wieviele Autos wurden pro Jahr verkauft (2011 - 2021)?
+- Die häufigsten Marken in den Daten.
+- Korrelationen zwischen den numerischen Merkmalen.
+- Durchschnittspreise für die fünf meistverkauften Automarken.
 
 ## Maschinelles Lernen
 
-Das Projekt implementiert verschiedene maschinelle Lernmodelle, um den Verkaufspreis von Autos vorherzusagen. 
-
-Folgende Modelle werden verwendet:
+Das Projekt implementiert verschiedene Machine Learning-Modelle zur Vorhersage des Verkaufspreises von Autos. Folgende Modelle werden verwendet:
 
 - **Lineare Regression**
 - **Decision Tree Regressor**
@@ -80,16 +68,26 @@ Folgende Modelle werden verwendet:
 - **Gradient Boosting Regressor**
 - **Support Vector Regressor (SVR)**
 
+Die Modelle werden mit verschiedenen Metriken ausgewertet, darunter:
+
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R²-Score
+
 ## Ergebnisse
 
-Die Ergebnisse der Modelle werden mit verschiedenen Metriken ausgewertet:
+Die Ergebnisse der Modelle werden analysiert, um die beste Modellanpassung zu identifizieren und verschiedene Leistungen zu vergleichen.
 
-- **Mean Absolute Error (MAE)**
-- **Mean Squared Error (MSE)**
-- **Root Mean Squared Error (RMSE)**
-- **R²-Score**
+## Technologien
 
-Die Modelle zeigen verschiedene Leistungen, und eine detaillierte Analyse der Ergebnisse wird durchgeführt, um die beste Modellanpassung zu identifizieren.
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Tableau
 
 ## Installation
 
@@ -103,5 +101,9 @@ pip install pandas numpy seaborn matplotlib scikit-learn pandas-profiling
 
 1. Klone das Repository oder lade die Dateien herunter.
 2. Stelle sicher, dass sich die `autoscout24.csv` im gleichen Verzeichnis befindet.
-3. Führe das Skript in einer Python-Umgebung (z.B. Jupyter Notebook) aus.
+3. Führe das Skript in einer Python-Umgebung (z.B. Jupyter Notebook) aus, um die Daten zu analysieren, Machine Learning-Modelle zu trainieren und das Dashboard zu erstellen.
 
+
+### Fazit
+
+Dieses Projekt bietet einen umfassenden Einblick in die Verkaufsdaten von Autos und zeigt, wie Datenanalysen und Machine Learning kombiniert werden können, um wertvolle Erkenntnisse zu gewinnen. Es dient auch als Grundlage für weitere Analysen und das Experimentieren mit unterschiedlichen Modellen und Visualisierungstechniken. 
