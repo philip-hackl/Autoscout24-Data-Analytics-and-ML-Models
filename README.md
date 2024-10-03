@@ -1,7 +1,3 @@
-Hier ist die optimierte README-Datei ohne Doppelungen und mit einer einheitlichen Struktur:
-
----
-
 # Autoscout24 Data Analytics and Machine Learning Models
 
 ## Projektübersicht
