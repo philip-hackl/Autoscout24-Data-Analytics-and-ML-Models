@@ -5,9 +5,9 @@
 
 In diesem Projekt werden Verkaufsdaten von Autos aus AutoScout24 analysiert und visualisiert. Ziel ist es, interessante Erkenntnisse über die Verkaufszahlen, Preisentwicklung und mögliche Korrelationen zwischen verschiedenen Eigenschaften der Fahrzeuge zu gewinnen. Zudem werden Machine Learning-Modelle entwickelt, um den Verkaufspreis von Autos basierend auf ihren Merkmalen vorherzusagen.
 
-## Business Intelligence
+## Business Intelligence: Tableau
 
-In Tableau werden Visualisierungen von Daten und Verteilungen präsentiert. 
+Im Rahmen dieses Projekts habe ich zusätzlich eine Tableau-Visualisierung der Verkaufsdaten erstellt, um die Datenverteilungen darzustellen. Diese Visualisierungen ermöglichen es, Muster und Trends schnell zu identifizieren und bieten eine intuitive Benutzeroberfläche zur Erkundung der Daten.
 
 **Tableau-Profil:** [Philips Tableau-Profil](https://public.tableau.com/app/profile/philip.hackl/vizzes)
 
@@ -17,7 +17,7 @@ In Tableau werden Visualisierungen von Daten und Verteilungen präsentiert.
 ## Inhaltsverzeichnis
 
 - [Projektübersicht](#projektübersicht)
-- [Business Intelligence](#business-intelligence)
+- [Business Intelligence Tableau](#business-intelligence-tableau)
 - [Projektziele](#projektziele)
 - [Projektinhalt](#projektinhalt)
 - [Datenbeschreibung](#datenbeschreibung)
